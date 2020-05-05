@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text1/css" href="style.css">
+    <meta name="Author" content="S.köhler">
+    <title>Coloring Book</title>
+    <style>
+        body {
+            display: block;
+
+        }
+        p { 
+            color: red;
+            size: 100;                              
+        }
+        div {
+            display: block;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,
+                    minmax(250px, 1fr));
+            position: relative;
+        }
+
+        /*-------------artickel------------------*/
+        .container article {
+            background-color: rgb(239, 239, 239);
+            position: relative;
+            margin: 1em;
+            z-index: 1;
+            border: 2px solid black;
+            overflow: hidden;
+            
+        }
+
+        /*-------------action------------------*/
+        .container article:hover .action {
+            opacity: 1.0;
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+                article {
+            display: block;
+        }
+
+        .container article .action img {
+            z-index: -1;
+            width: 100%;
+            height: 140%;
+            left: 0px;
+            top: -10px;
+            position: absolute !important;
+            margin-right: 1em;
+            transition: transform 0.3s ease 0s, opacity 0.3s ease 0s, filter 0.3s ease 0s;
+            
+        }
+
+        /*-------------text------------------*/
+        .text {
+            opacity: 0;
+            transition: transform 0.3s ease 0s,
+                opacity 0.3s ease 0s;
+            transform: scale(0.9);
+            padding: 1em;
+            z-index: 2;
+        }
+
+        .container article .text {
+            opacity: 0;
+            transition: transform 0.3s ease 0s, opacity 0.3s ease 0s;
+            transform: scale(0.9);
+            padding: 1em;
+            z-index: 2;
+        }
+
+        .container article:hover .text {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <article>
+            <div class="action">
+                <img src="./1.jpeg" alt="bild">
+                <p class="text"> test test test test test test test test test test test test</p>
+            </div>
+        </article>
+
+
+        <article>
+            <div class="action">
+                <img src="./2.jpeg" alt="bild">
+                <p class="text"> test test test test test test test test test test test test</p>
+            </div>
+        </article>
+
+        <article>
+            <div class="action">
+                <img src="./3.jpeg" alt="bild">
+                <p class="text"> test test test test test test test test test test test test</p>
+            </div>
+        </article>
+    </div>
+
+</body>
+
+</html>

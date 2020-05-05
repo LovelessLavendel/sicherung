@@ -1,0 +1,39 @@
+body{
+
+}
+.contener {
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto;
+    display: grid;
+}
+.kopf{
+    
+}
+.pic{
+
+}
+.pic1{
+
+}
+.nav{
+
+}
+li{
+
+}
+.header{
+
+}
+.box1{
+
+}
+.box2{
+    
+}
+.box3{
+    
+}
+footer{
+
+}

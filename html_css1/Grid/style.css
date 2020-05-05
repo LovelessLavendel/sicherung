@@ -1,0 +1,45 @@
+.contener {
+    background-color:black;
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto;
+    display: grid;
+    /* grid-template-rows: 150px 150px; */
+    /* grid-template-columns: 150px 300px 150px; */
+    /* grid-template-columns: repeat(3, 150px); */
+    /* rows: repeat(2,150px); */
+    /*grid-template-areas:" hader hader hader hader"
+				" BOX BOX BOX seid" 
+			" mein mein mien seid"
+			" food food food food"*/
+	/* grid-template-columns:repeat(auto-flill, minmax (150px, 1fr));*/
+/* grid-template-columns:repeat(auto-fit, minmax (150px, 1fr));*/
+    grid-row-gap:15px;
+    grid-column-gap:15px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr ; 
+    /* grid-template-columns: minmax(100px,200px)1fr 1fx;  */
+}
+  .item{
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item.item--1{
+    background-color:red;
+  }
+  .item.item--2{
+    background-color:blue;
+  }
+  .item.item--3{
+    background-color:green;
+  }
+  .item.item--4{
+    background-color:yellow;
+  }
+  .item.item--5{
+    background-color:fuchsia;
+  }
+  .item.item--6{
+    background-color:gray;
+  }
+  

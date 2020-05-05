@@ -1,0 +1,86 @@
+body {
+	
+}
+.AusenBox {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	text-align: center;
+	
+}
+div {
+	text-align: center;
+	width: 500px;
+	height: 100px;
+}
+
+.box1 {
+	background-color: rebeccapurple;
+	width: 100%;
+}
+.box2 {
+	background-color: red;
+	width: 100%;
+}
+.box3 {
+	background-color:blue;
+	width: 100%;
+}
+.box4 {
+	background-color:brown;
+	width: 100%;
+}
+.box5 {
+	background-color: green;
+	width: 100%;
+}
+.box6 {
+	background-color: orange;
+	width: 100%;
+}
+.box7 {
+	background-color: orangered;
+	width: 100%;
+}
+
+@media screen and (min-width:300px){
+
+.box3 {
+	width: 33.33%;
+}
+.box4 {
+	width: 33.33%;
+}
+.box5 {
+	width: 33.33%;
+}
+
+	
+}
+@media screen and (min-width:800px){
+.box1 {
+	background-color: rebeccapurple;
+	width: 50%;
+}
+.box2 {
+	background-color: red;
+	width: 50%;
+}
+.box3 {
+	width: 33.33%;
+}
+.box4 {
+	width: 33.33%;
+}
+.box5 {
+	width: 33.33%;
+}
+.box6 {
+	background-color: orange;
+	width: 50%;
+}
+.box7 {
+	background-color: orangered;
+	width: 50%;
+}
+}

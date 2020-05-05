@@ -1,0 +1,15 @@
+
+.myBox {
+    border: solid black 4px;
+    height: 790px;
+    width: 790px;
+}
+.box{
+    display: inline-block;
+    border: solid red 2px;
+    height: 250px;
+    width: 250px;
+}
+.mybox span {
+display: inline-block;
+}

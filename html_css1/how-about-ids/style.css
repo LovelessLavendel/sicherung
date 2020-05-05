@@ -1,0 +1,20 @@
+.red {
+    color: rgb(38, 0, 255);
+    font-size: 100px;
+    background-color: burlywood;
+}
+
+#blue {
+    color: blue;
+    font-size: 100px;
+}
+#blau { 
+    color: blue;
+}
+p { color: blue;}
+#b_c { 
+    background-color: rgba(8, 243, 59, 0.986);
+}
+.b_c { 
+    background-color: rgba(8, 216, 243, 0.986);
+}

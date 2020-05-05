@@ -1,0 +1,10 @@
+.sans {
+    font-family: 'Black Han Sans', sans-serif;
+}
+.sans1 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+.code {
+    font-family: 'IBM Plex Mono', monospace;
+    color: red;
+}

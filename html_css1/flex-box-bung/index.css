@@ -1,0 +1,37 @@
+body {
+	
+}
+.genres {
+	display: flex;
+	flex-wrap: wrap;
+}
+div {
+	text-align: center;
+	width: 500px;
+	height: 100px;
+}
+.Action {
+	background-color: dodgerblue;
+	flex-grow: 2;
+}
+.Thriller {
+	background-color: rgb(190,178, 178);
+	flex-grow: 10;
+}
+.Comedy {
+	background-color: rgb(255, 214, 30);
+	flex-grow: 10;
+}
+.Horror {
+	background-color: black;
+	flex-grow: 2;
+	color: aliceblue;
+}
+.Drama {
+	flex-grow: 2;
+	background-color: darkgray;
+}
+.Romance {
+	flex-grow: 2;
+	background-color: red;
+}
